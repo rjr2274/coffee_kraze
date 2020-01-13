@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+
+CoffeeKraze::CLI.new.call
