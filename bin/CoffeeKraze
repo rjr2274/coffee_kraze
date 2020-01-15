@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require './lib/coffee_kraze'
+require '../lib/coffee_kraze'
 
 CoffeeKraze::CLI.new.call
