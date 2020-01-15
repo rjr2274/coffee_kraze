@@ -5,3 +5,4 @@ module CoffeeKraze
 end
 
 require_relative './coffee_kraze/cli'
+require_relative './coffee_kraze/shop'
