@@ -1,7 +1,6 @@
 require "open-uri"
 require "pry"
 require "nokogiri"
-require "../coffee_kraze"
 class CoffeeKraze::Scraper
 
     @@all = []
@@ -68,15 +67,19 @@ class CoffeeKraze::Scraper
 
 
 
-    binding.pry
     end
 
+    ################################################################################################
+    #####################          METHODS      ###############################################
+    ################################################################################################
 
-    
-
-
+    def self.all
+        @@all
+    end
 
 end
+
+
 #address : doc.css("div.c-mapstack__address").first.text
 #phone: doc.css("div.c-mapstack__phone.mobile-only").collect {|shop| shop.text}
 #name: doc.css(".c-mapstack__card-hed").text.gsub(" ", "").split.uniq
