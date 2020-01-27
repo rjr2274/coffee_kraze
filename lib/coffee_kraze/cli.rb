@@ -50,7 +50,8 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
-                    case input
+                        input = input.strip
+                    case input.strip
 
                     when 'shop.name'
                         puts shop.name
@@ -73,6 +74,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -96,6 +98,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -119,6 +122,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -142,6 +146,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -165,6 +170,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -188,6 +194,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -211,6 +218,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -234,6 +242,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -257,6 +266,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -280,6 +290,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -303,6 +314,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -326,6 +338,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -349,6 +362,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -372,6 +386,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -395,6 +410,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -418,6 +434,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -441,6 +458,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -464,6 +482,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
@@ -487,6 +506,7 @@ class CoffeeKraze::CLI
 
                     while input != "back"
                         input = gets.chomp
+                        input = input.strip
                     case input
 
                     when 'shop.name'
