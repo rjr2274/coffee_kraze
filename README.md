@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Using Coffee Kraze is farely simple.  Once started it will list the top 20 coffee shops in Denver area!  Afterwards you can select a number to the right of the shop you would like details on.  From there it is just like any other object interaction, you can see the name, location, about, and number of all by doing ."selection"!  Then back to escape the details and return to the main list.  Once ready you can type "exit" to end the application.
 
 ## Development
 
